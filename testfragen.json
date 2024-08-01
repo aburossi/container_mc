@@ -1,6 +1,411 @@
 {
   "questions": [
     {
+      "title": "Organisation der Berufsbildung",
+      "type": "MC",
+      "question_text": "Worauf basiert das Schweizer Berufsbildungssystem?",
+      "answers": [
+        {
+          "text": "Zusammenarbeit von Schule, Lehrbetrieben und Berufsverbänden",
+          "is_correct": true,
+          "feedback": "Richtig! Das Schweizer Berufsbildungssystem basiert auf der Zusammenarbeit dieser drei Akteure, um eine praxisnahe und fundierte Ausbildung zu gewährleisten."
+        },
+        {
+          "text": "Ausschliesslich auf schulischem Unterricht an Berufsfachschulen",
+          "is_correct": false,
+          "feedback": "Falsch. Die Berufsbildung in der Schweiz beinhaltet zwar auch schulischen Unterricht, basiert jedoch auf der Zusammenarbeit von Schule, Lehrbetrieben und Berufsverbänden. Die korrekte Antwort ist Zusammenarbeit von Schule, Lehrbetrieben und Berufsverbänden."
+        },
+        {
+          "text": "Selbststudium und anschliessender Berufseinstieg",
+          "is_correct": false,
+          "feedback": "Falsch. Das Schweizer Berufsbildungssystem ist strukturiert und basiert auf der Zusammenarbeit von Schule, Lehrbetrieben und Berufsverbänden. Die korrekte Antwort ist Zusammenarbeit von Schule, Lehrbetrieben und Berufsverbänden."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Ein Lernender im Bereich Informatik besucht die Berufsfachschule und arbeitet gleichzeitig in einem IT-Unternehmen."
+      }
+    },
+    {
+      "title": "Bildungswege",
+      "type": "MC",
+      "question_text": "Welcher Abschluss ermöglicht den direkten Zugang zu Universitäten?",
+      "answers": [
+        {
+          "text": "Gymnasiale Maturität",
+          "is_correct": true,
+          "feedback": "Richtig! Die gymnasiale Maturität berechtigt zum Studium an Universitäten und der ETH."
+        },
+        {
+          "text": "Eidgenössisches Fähigkeitszeugnis (EFZ)",
+          "is_correct": false,
+          "feedback": "Falsch. Das EFZ ist ein Berufsabschluss. Um an einer Universität studieren zu können, benötigt man die gymnasiale Maturität. Die korrekte Antwort ist die gymnasiale Maturität."
+        },
+        {
+          "text": "Berufsmaturität (BM)",
+          "is_correct": false,
+          "feedback": "Falsch. Die Berufsmaturität ermöglicht den Zugang zu Fachhochschulen, nicht jedoch direkt zu Universitäten. Die korrekte Antwort ist die gymnasiale Maturität."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Ein Schüler, der Medizin studieren möchte, muss zuerst die gymnasiale Maturität an einem Gymnasium absolvieren."
+      }
+    },
+    {
+      "title": "Allgemeinbildung",
+      "type": "MC",
+      "question_text": "Was ist ein Hauptziel des allgemeinbildenden Unterrichts (ABU) in der beruflichen Grundbildung?",
+      "answers": [
+        {
+          "text": "Vermittlung von Schlüsselkompetenzen in Sprache, Kommunikation und Gesellschaft",
+          "is_correct": true,
+          "feedback": "Richtig! Der ABU soll den Lernenden grundlegende Kompetenzen vermitteln, die für die persönliche und berufliche Entwicklung wichtig sind."
+        },
+        {
+          "text": "Ausschliessliche Vermittlung von Fachwissen für den gewählten Beruf",
+          "is_correct": false,
+          "feedback": "Falsch. Der ABU zielt zwar auch auf die berufliche Entwicklung ab, jedoch nicht ausschliesslich. Der Fokus liegt auf der Vermittlung von Schlüsselkompetenzen in Sprache, Kommunikation und Gesellschaft. Die korrekte Antwort ist Vermittlung von Schlüsselkompetenzen in Sprache, Kommunikation und Gesellschaft."
+        },
+        {
+          "text": "Vorbereitung auf die Aufnahmeprüfung an einer Universität",
+          "is_correct": false,
+          "feedback": "Falsch. Der ABU ist Teil der beruflichen Grundbildung und nicht auf die Vorbereitung für ein Universitätsstudium ausgerichtet. Die korrekte Antwort ist Vermittlung von Schlüsselkompetenzen in Sprache, Kommunikation und Gesellschaft."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Im ABU lernen angehende Kaufleute, wie man Geschäftsbriefe korrekt verfasst und Präsentationen hält."
+      }
+    },
+    {
+      "title": "Gesetzliche Grundlagen",
+      "type": "MC",
+      "question_text": "Wer legt die grundlegenden Rahmenbedingungen für die Berufsbildung in der Schweiz fest?",
+      "answers": [
+        {
+          "text": "Der Bund",
+          "is_correct": true,
+          "feedback": "Richtig! Der Bund definiert die übergeordneten Rahmenbedingungen, während die Kantone für die Umsetzung und Aufsicht zuständig sind."
+        },
+        {
+          "text": "Die Lehrbetriebe",
+          "is_correct": false,
+          "feedback": "Falsch. Die Lehrbetriebe spielen zwar eine wichtige Rolle in der Berufsbildung, die grundlegenden Rahmenbedingungen werden jedoch vom Bund festgelegt. Die korrekte Antwort ist der Bund."
+        },
+        {
+          "text": "Die Berufsverbände",
+          "is_correct": false,
+          "feedback": "Falsch. Die Berufsverbände sind zwar an der Ausgestaltung der Berufsbildung beteiligt, die grundlegenden Rahmenbedingungen werden jedoch vom Bund festgelegt. Die korrekte Antwort ist der Bund."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Das Berufsbildungsgesetz (BBG) ist ein Beispiel für ein Gesetz auf Bundesebene, das die Berufsbildung regelt."
+      }
+    },
+    {
+      "title": "Duale Berufsbildung",
+      "type": "MC",
+      "question_text": "Was zeichnet das duale System der Berufsbildung in der Schweiz aus?",
+      "answers": [
+        {
+          "text": "Kombination von praktischer Ausbildung im Betrieb und theoretischem Unterricht in der Berufsfachschule",
+          "is_correct": true,
+          "feedback": "Richtig! Die Lernenden profitieren von der Verknüpfung von Theorie und Praxis."
+        },
+        {
+          "text": "Reine Schulbildung an einer Berufsfachschule ohne Praxisbezug",
+          "is_correct": false,
+          "feedback": "Falsch. Das duale System zeichnet sich gerade durch die Verbindung von praktischer Ausbildung im Betrieb und Theorie an der Berufsfachschule aus. Die korrekte Antwort ist Kombination von praktischer Ausbildung im Betrieb und theoretischem Unterricht in der Berufsfachschule."
+        },
+        {
+          "text": "Ausschliesslich praktische Ausbildung im Betrieb ohne Besuch einer Berufsschule",
+          "is_correct": false,
+          "feedback": "Falsch. Das duale System beinhaltet sowohl die praktische Ausbildung im Betrieb als auch den Besuch der Berufsfachschule. Die korrekte Antwort ist Kombination von praktischer Ausbildung im Betrieb und theoretischem Unterricht in der Berufsfachschule."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Eine angehende Köchin arbeitet in einem Restaurant und besucht gleichzeitig die Berufsfachschule."
+      }
+    },
+    {
+      "title": "Berufsbildungsabschluss",
+      "type": "MC",
+      "question_text": "Welchen Abschluss erlangen Lernende in der Regel nach einer drei- bis vierjährigen beruflichen Grundbildung?",
+      "answers": [
+        {
+          "text": "Eidgenössisches Fähigkeitszeugnis (EFZ)",
+          "is_correct": true,
+          "feedback": "Richtig! Das EFZ ist der Standardabschluss der beruflichen Grundbildung und geniesst in der Schweiz eine hohe Anerkennung."
+        },
+        {
+          "text": "Gymnasiale Maturität",
+          "is_correct": false,
+          "feedback": "Falsch. Die gymnasiale Maturität wird am Gymnasium erworben und nicht im Rahmen der beruflichen Grundbildung. Die korrekte Antwort ist Eidgenössisches Fähigkeitszeugnis (EFZ)."
+        },
+        {
+          "text": "Bachelor-Abschluss",
+          "is_correct": false,
+          "feedback": "Falsch. Ein Bachelor-Abschluss wird an einer Universität oder Fachhochschule erworben und nicht im Rahmen der beruflichen Grundbildung. Die korrekte Antwort ist Eidgenössisches Fähigkeitszeugnis (EFZ)."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Ein Automobil-Mechatroniker EFZ hat seine berufliche Grundbildung erfolgreich abgeschlossen."
+      }
+    },
+    {
+      "title": "Zukunftsperspektiven",
+      "type": "MC",
+      "question_text": "Womit beschäftigt sich das Projekt «Allgemeinbildung 2030»?",
+      "answers": [
+        {
+          "text": "Anpassung des ABU an zukünftige Anforderungen der Gesellschaft und des Arbeitsmarktes",
+          "is_correct": true,
+          "feedback": "Richtig! Das Projekt reagiert auf die Digitalisierung und Internationalisierung der Arbeitswelt."
+        },
+        {
+          "text": "Abschaffung des ABU in der beruflichen Grundbildung",
+          "is_correct": false,
+          "feedback": "Falsch. Ziel des Projekts ist nicht die Abschaffung, sondern die Anpassung des ABU an die zukünftigen Anforderungen. Die korrekte Antwort ist Anpassung des ABU an zukünftige Anforderungen der Gesellschaft und des Arbeitsmarktes."
+        },
+        {
+          "text": "Einführung von verpflichtenden Fremdsprachenprüfungen im ABU",
+          "is_correct": false,
+          "feedback": "Falsch. Das Projekt befasst sich zwar mit der Internationalisierung, jedoch nicht spezifisch mit Fremdsprachenprüfungen. Die korrekte Antwort ist Anpassung des ABU an zukünftige Anforderungen der Gesellschaft und des Arbeitsmarktes."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Die Integration von digitalen Kompetenzen im ABU ist ein Beispiel für die Anpassung an die zukünftigen Anforderungen."
+      }
+    },
+    {
+      "title": "Verantwortlichkeiten",
+      "type": "MC",
+      "question_text": "Wer ist für die Erstellung der Bildungspläne in der Berufsbildung zuständig?",
+      "answers": [
+        {
+          "text": "Die Berufsverbände",
+          "is_correct": true,
+          "feedback": "Richtig! Die Berufsverbände bringen ihre Expertise ein, um die Bildungspläne aktuell und praxisnah zu gestalten."
+        },
+        {
+          "text": "Die Kantone",
+          "is_correct": false,
+          "feedback": "Falsch. Die Kantone sind zwar für die Umsetzung und Aufsicht der Berufsbildung zuständig, die Erstellung der Bildungspläne obliegt jedoch den Berufsverbänden. Die korrekte Antwort ist die Berufsverbände."
+        },
+        {
+          "text": "Die Berufsfachschulen",
+          "is_correct": false,
+          "feedback": "Falsch. Die Berufsfachschulen richten sich nach den Bildungsplänen, die von den Berufsverbänden erstellt werden. Die korrekte Antwort ist die Berufsverbände."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Der Bildungsplan für angehende Informatiker wird vom ICT-Berufsverband Schweiz erstellt."
+      }
+    },
+    {
+      "title": "Praktische Ausbildung",
+      "type": "MC",
+      "question_text": "Wer ist für die praktische Ausbildung der Lernenden verantwortlich?",
+      "answers": [
+        {
+          "text": "Der Lehrbetrieb",
+          "is_correct": true,
+          "feedback": "Richtig! Der Lehrbetrieb vermittelt den Lernenden die praktischen Fähigkeiten und Fertigkeiten ihres Berufs."
+        },
+        {
+          "text": "Die Berufsfachschule",
+          "is_correct": false,
+          "feedback": "Falsch. Die Berufsfachschule ist für den theoretischen Teil der Ausbildung zuständig, während die praktische Ausbildung im Lehrbetrieb stattfindet. Die korrekte Antwort ist der Lehrbetrieb."
+        },
+        {
+          "text": "Die Berufsverbände",
+          "is_correct": false,
+          "feedback": "Falsch. Die Berufsverbände sind für die Gestaltung der Bildungspläne und die überbetrieblichen Kurse zuständig, nicht jedoch für die praktische Ausbildung im Betrieb. Die korrekte Antwort ist der Lehrbetrieb."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Ein angehender Schreiner erlernt die grundlegenden Handwerkstechniken in seiner Lehrwerkstatt."
+      }
+    },
+    {
+      "title": "Abschlussarbeit",
+      "type": "MC",
+      "question_text": "Welche schriftliche Arbeit müssen Lernende am Ende ihrer beruflichen Grundbildung verfassen und präsentieren?",
+      "answers": [
+        {
+          "text": "Vertiefungsarbeit (VA)",
+          "is_correct": true,
+          "feedback": "Richtig! Die VA ermöglicht es den Lernenden, ihr Wissen und ihre Fähigkeiten in einem selbst gewählten Thema zu vertiefen."
+        },
+        {
+          "text": "Bachelorarbeit",
+          "is_correct": false,
+          "feedback": "Falsch. Eine Bachelorarbeit wird an einer Universität oder Fachhochschule verfasst, nicht im Rahmen der beruflichen Grundbildung. Die korrekte Antwort ist Vertiefungsarbeit (VA)."
+        },
+        {
+          "text": "Dissertation",
+          "is_correct": false,
+          "feedback": "Falsch. Eine Dissertation ist eine wissenschaftliche Arbeit, die im Rahmen eines Doktoratsstudiums verfasst wird. Die korrekte Antwort ist Vertiefungsarbeit (VA)."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Ein angehender Informatiker schreibt seine VA über die Entwicklung einer mobilen Applikation."
+      }
+    },
+    {
+      "title": "Lernbereiche im ABU",
+      "type": "MC",
+      "question_text": "Welcher Aspekt gehört nicht zu den Lernbereichen des allgemeinbildenden Unterrichts (ABU)?",
+      "answers": [
+        {
+          "text": "Mathematik",
+          "is_correct": true,
+          "feedback": "Richtig! Mathematik ist zwar ein wichtiger Bestandteil der Schulbildung, wird aber nicht explizit im Rahmen des ABU in der beruflichen Grundbildung unterrichtet."
+        },
+        {
+          "text": "Ethik",
+          "is_correct": false,
+          "feedback": "Falsch. Ethik ist ein wichtiger Bestandteil des Lernbereichs Gesellschaft im ABU. Die korrekte Antwort ist Mathematik."
+        },
+        {
+          "text": "Politik",
+          "is_correct": false,
+          "feedback": "Falsch. Politik gehört ebenfalls zum Lernbereich Gesellschaft im ABU. Die korrekte Antwort ist Mathematik."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Im ABU setzen sich die Lernenden mit ethischen Fragen auseinander, die im Zusammenhang mit ihrem Beruf relevant sind."
+      }
+    },
+    {
+      "title": "Überbetriebliche Kurse",
+      "type": "MC",
+      "question_text": "Wer ist für die Regelung der überbetrieblichen Kurse (üK) zuständig?",
+      "answers": [
+        {
+          "text": "Die Berufsverbände",
+          "is_correct": true,
+          "feedback": "Richtig! Die Berufsverbände stellen sicher, dass die üK den aktuellen Anforderungen der Branche entsprechen."
+        },
+        {
+          "text": "Die Lehrbetriebe",
+          "is_correct": false,
+          "feedback": "Falsch. Die Lehrbetriebe entsenden ihre Lernenden zwar zu den üK, die Regelung obliegt jedoch den Berufsverbänden. Die korrekte Antwort ist die Berufsverbände."
+        },
+        {
+          "text": "Die Kantone",
+          "is_correct": false,
+          "feedback": "Falsch. Die Kantone haben zwar die Aufsicht über die Berufsbildung, die Regelung der üK liegt jedoch bei den Berufsverbänden. Die korrekte Antwort ist die Berufsverbände."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Ein üK für angehende Elektriker könnte die Installation von Solaranlagen zum Thema haben."
+      }
+    },
+    {
+      "title": "Durchlässigkeit des Bildungssystems",
+      "type": "MC",
+      "question_text": "Was bedeutet die hohe Durchlässigkeit des Schweizer Bildungssystems?",
+      "answers": [
+        {
+          "text": "Es bietet verschiedene Bildungswege und ermöglicht Wechsel zwischen diesen.",
+          "is_correct": true,
+          "feedback": "Richtig! Absolventen haben die Möglichkeit, sich beruflich weiterzuentwickeln und auch höhere Bildungsabschlüsse zu erreichen."
+        },
+        {
+          "text": "Es ist sehr schwierig, zwischen verschiedenen Bildungsgängen zu wechseln.",
+          "is_correct": false,
+          "feedback": "Falsch. Die Durchlässigkeit des Systems bedeutet gerade, dass Wechsel zwischen verschiedenen Bildungsgängen möglich und erwünscht sind. Die korrekte Antwort ist: Es bietet verschiedene Bildungswege und ermöglicht Wechsel zwischen diesen."
+        },
+        {
+          "text": "Es gibt nur einen einzigen Bildungsweg, dem alle folgen müssen.",
+          "is_correct": false,
+          "feedback": "Falsch. Das Schweizer Bildungssystem zeichnet sich gerade durch seine Vielfalt an Bildungsgängen und die Möglichkeit zum Wechsel zwischen diesen aus. Die korrekte Antwort ist: Es bietet verschiedene Bildungswege und ermöglicht Wechsel zwischen diesen."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Jemand mit einem EFZ kann später eine Berufsmaturität machen und anschliessend an einer Fachhochschule studieren."
+      }
+    },
+    {
+      "title": "Bedeutung der Allgemeinbildung",
+      "type": "MC",
+      "question_text": "Warum ist die Allgemeinbildung im Rahmen der beruflichen Grundbildung von Bedeutung?",
+      "answers": [
+        {
+          "text": "Sie vermittelt Schlüsselkompetenzen für die persönliche und berufliche Entwicklung.",
+          "is_correct": true,
+          "feedback": "Richtig! Die Allgemeinbildung trägt zur Entwicklung von kritischem Denken, Kommunikationsfähigkeit und sozialer Kompetenz bei."
+        },
+        {
+          "text": "Sie ist nur für den Besuch einer Universität relevant.",
+          "is_correct": false,
+          "feedback": "Falsch. Die Allgemeinbildung ist für alle wichtig, unabhängig von der Wahl des weiteren Bildungs- oder Berufswegs. Sie vermittelt Schlüsselkompetenzen für die persönliche und berufliche Entwicklung. Die korrekte Antwort ist: Sie vermittelt Schlüsselkompetenzen für die persönliche und berufliche Entwicklung."
+        },
+        {
+          "text": "Sie hat keinen Einfluss auf den beruflichen Erfolg.",
+          "is_correct": false,
+          "feedback": "Falsch. Die in der Allgemeinbildung vermittelten Kompetenzen wie Kommunikationsfähigkeit und kritisches Denken sind auch im Beruf sehr wichtig. Sie vermittelt Schlüsselkompetenzen für die persönliche und berufliche Entwicklung. Die korrekte Antwort ist: Sie vermittelt Schlüsselkompetenzen für die persönliche und berufliche Entwicklung."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Ein guter Kommunikationsstil, der im ABU gefördert wird, ist auch im Kundenkontakt von Vorteil."
+      }
+    },
+    {
+      "title": "Ziele des Bildungssystems",
+      "type": "MC",
+      "question_text": "Welches ist ein zentrales Ziel des Schweizer Bildungssystems?",
+      "answers": [
+        {
+          "text": "Den Bedürfnissen des Arbeitsmarktes gerecht werden und gleichzeitig die persönliche Entwicklung fördern",
+          "is_correct": true,
+          "feedback": "Richtig! Das Bildungssystem soll sowohl die Wirtschaftlichkeit als auch die individuelle Entfaltung der Lernenden unterstützen."
+        },
+        {
+          "text": "Nur theoretisches Wissen zu vermitteln, ohne Praxisbezug",
+          "is_correct": false,
+          "feedback": "Falsch. Das Schweizer Bildungssystem, insbesondere die Berufsbildung, legt grossen Wert auf die Verknüpfung von Theorie und Praxis. Die korrekte Antwort ist Den Bedürfnissen des Arbeitsmarktes gerecht werden und gleichzeitig die persönliche Entwicklung fördern."
+        },
+        {
+          "text": "Alle auf ein Studium an einer Universität vorzubereiten",
+          "is_correct": false,
+          "feedback": "Falsch. Das Bildungssystem soll unterschiedliche Talente und Interessen fördern und verschiedene Bildungswege ermöglichen, nicht nur den Weg zum Studium. Die korrekte Antwort ist Den Bedürfnissen des Arbeitsmarktes gerecht werden und gleichzeitig die persönliche Entwicklung fördern."
+        }
+      ],
+      "points": 1,
+      "penalty": -0.5,
+      "additional_info": {
+        "real_life_example": "Die Berufsbildung ermöglicht es den Lernenden, einen Beruf zu erlernen und gleichzeitig ihre persönlichen Fähigkeiten zu entwickeln."
+      }
+    },
+    {
       "title": "Berufsbildungssystem",
       "type": "MC",
       "question_text": "Was ist das charakteristische Merkmal des Schweizer Berufsbildungssystems?",
